@@ -19,7 +19,7 @@ const HeroSection = () => {
             <motion.div
                 initial={{opacity: 0, y:20}}
                 animate={{opacity: 1, y: 0}}
-                transition={{duration: 2}}
+                transition={{duration: 0.5}}
                 className='absolute top-1/3 transform -translate-x-1/2 -translate-y-1/2 text-center w-full'
             >
                 <div className='max-w-4xl mx-auto px-16 sm:px-12'>
