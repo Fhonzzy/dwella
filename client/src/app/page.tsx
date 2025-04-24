@@ -1,10 +1,13 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/RComps/Navbar";
+import Landing from "./(nondashboard)/landing/page";
 
 export default function Home() {
   return (
-    <>
-      <h1 className="text-5xl font-bold underline text-center">Hello world!</h1>
-      <Button variant={"default"}>Click Me</Button>
-    </>
+    <div className="h-full w-full">
+      <Navbar />
+      <main className={`h-full flex w-full flex-col`}>
+        <Landing />
+      </main>
+    </div>
   );
 }
